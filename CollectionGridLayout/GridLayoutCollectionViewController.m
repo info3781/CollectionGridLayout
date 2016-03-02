@@ -23,8 +23,6 @@ static NSString * const reuseIdentifier = @"Cell";
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations
-    // self.clearsSelectionOnViewWillAppear = NO;
     
     self.layout.numOfItemPerLine = 3;
     self.layout.sectionInset = UIEdgeInsetsMake(5, 5, 5, 5);
@@ -35,7 +33,6 @@ static NSString * const reuseIdentifier = @"Cell";
     // Register cell classes
     [self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:reuseIdentifier];
     
-    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
